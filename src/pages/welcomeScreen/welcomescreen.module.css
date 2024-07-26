@@ -1,0 +1,105 @@
+.WelcomescreenWrapper {
+    background: linear-gradient(89.63deg, #0047FF -15.09%, #00E0FF 136.35%);
+    height: 100%;
+    font-family: 'Jost', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+.WelcomescreenWrapper .bgImage .footImg {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+.WelcomescreenWrapper .bgImage{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+.WelcomescreenWrapper .bgImage .topImg {
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+.WelcomescreenWrapper .bgImage h4 {
+    color: white;
+}
+.WelcomescreenWrapper .loginTitle {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 87px;
+    z-index: 1;
+    width: 60%;
+    flex-direction: column;
+}
+
+.WelcomescreenWrapper .loginTitle h1 {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+}
+
+.WelcomescreenWrapper .loginTitle p {
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.WelcomescreenWrapper .loginTitle button {
+    margin: 0;
+    width: 200px;
+}
+.customButton {
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px #09549a;
+}
+
+.customButton:hover {
+    background-color: #40a9ff;
+    color: #fff;
+}
+@media only screen and (max-width: 992px) {
+    .WelcomescreenWrapper .bgImage img {
+        width: 77%;
+    }
+
+    .WelcomescreenWrapper .loginTitle {
+        padding-left: 25px;
+    }
+
+    .WelcomescreenWrapper .loginTitle h1 {
+        font-size: 4.188rem;
+    }
+
+    .WelcomescreenWrapper .loginTitle p {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .WelcomescreenWrapper .bgImage img {
+        width: 85%;
+    }
+
+    .WelcomescreenWrapper .loginTitle h1 {
+        font-size: 30px;
+    }
+
+    .WelcomescreenWrapper .loginTitle p {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}

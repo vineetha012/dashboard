@@ -1,0 +1,391 @@
+@media screen and (max-width: 992px) {
+    .crmDashboard {
+        text-align: center;
+    }
+
+    .crmDashboard .card {
+        margin-top: 1rem;
+    }
+
+    .crmDashboard .card .cardBody a label {
+        margin-bottom: 1rem;
+        text-decoration: none;
+    }
+
+    .crmDashboard .card .cardBody .monthCardIcon,
+    .crmDashboard .card .cardBody .todayCardIcon,
+    .crmDashboard .card .cardBody .requestTypeIcon,
+    .crmDashboard .card .cardBody .appointmentIcon {
+        text-decoration: underline;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .crmDashboard .UnresolvedTable {
+        margin-bottom: 1rem;
+    }
+
+    .crmDashboard .priority .prioritycard .prioritycardBody .priorityLowDetails,
+    .crmDashboard .priority .prioritycard .prioritycardBody .priorityMediumDetails,
+    .crmDashboard .priority .prioritycard .prioritycardBody .priorityHighDetails,
+    .crmDashboard .priority .prioritycard .prioritycardBody .priorityUrgentDetails {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .crmDashboard {
+        text-align: center;
+    }
+
+    .crmDashboard .card {
+        margin-top: 1rem;
+    }
+
+    .crmDashboard .card .cardBody a p {
+        font-size: 15px;
+    }
+
+    .crmDashboard .card .cardBody a label {
+        font-size: 10px;
+        margin-bottom: 1rem;
+        text-decoration: none;
+    }
+
+    .crmDashboard .card .cardBody .monthCardIcon,
+    .crmDashboard .card .cardBody .todayCardIcon,
+    .crmDashboard .card .cardBody .requestTypeIcon,
+    .crmDashboard .card .cardBody .appointmentIcon {
+        text-decoration: underline;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        /* "@ant-design/charts": "^1.4.2", */
+    .crmDashboard .UnresolvedTable {
+        margin-bottom: 1rem;
+    }
+
+    .crmDashboard .priority .prioritycard .prioritycardBody .priorityLowDetails,
+    .crmDashboard .priority .prioritycard .prioritycardBody .priorityMediumDetails,
+    .crmDashboard .priority .prioritycard .prioritycardBody .priorityHighDetails,
+    .crmDashboard .priority .prioritycard .prioritycardBody .priorityUrgentDetails {
+        justify-content: center;
+    }
+}
+.customTableHeader {
+    text-align: center;
+}
+
+th {
+    background-color: #41415c !important;
+    text-align: center !important;
+    color: #ffffff !important;
+}
+td{
+    text-align: center !important;
+}
+table {
+    overflow-x: auto;
+}
+.card{
+ padding: 10px;
+}
+.title-head{
+    
+}
+.DashboardWarapperBodyNoBG {
+    background-color: transparent !important;
+}
+
+.DashboardWarapperBodyNoBG .orangeText {
+    color: #FF9C00;
+}
+
+.DashboardWarapperBodyNoBG .greenText {
+    color: #367421;
+}
+
+.DashboardWarapperBodyNoBG .redText {
+    color: #F00;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 24px 29px 11px 29px;
+    box-shadow: 0 0.125rem 0 rgba(10, 10, 10, .04);
+    border: 0;
+    border-top-width: 3px;
+    border-top-style: solid;
+    height: 100%;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card1 {
+    border-color: #617eb466;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card1 .ticketCardBody p {
+    color: #597ab7;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card2 {
+    border-color: rgb(54 116 33 / 32%);
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card2 .ticketCardBody p {
+    color: #367421;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card3 {
+    border-color: rgb(255 0 0 / 30%);
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card3 .ticketCardBody p {
+    color: #F00;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card4 {
+    border-color: #FF9C0066;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card4 .ticketCardBody p {
+    color: #FF9C00;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card5 {
+    border-color: #b6e5f1;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card6 {
+    border-color: rgba(255, 0, 0, 0.358);
+    padding-bottom: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards.card7 {
+    border-color: #ff9d006a;
+    padding-bottom: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody h4 {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 2px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody p {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody label {
+    color: #7C7C7C;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .infoIcon {
+    position: absolute;
+    top: 7px;
+    right: 9px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .infoIcon a {
+    color: #BDBDBD;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .infoIcon a svg {
+    font-size: 20px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .infoIcon a:hover {
+    color: #ada6a6;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .priorityTicketList h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px 0px 7px 0px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .priorityTicketList p {
+    font-size: 32px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .cardsmBorder {
+    border-radius: 5px;
+    border: 1px solid #B9B9B9;
+    padding: 3px 9px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .cardsmBorder p {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .cardsmBorder label {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .listGroup .listGroupItem {
+    cursor: pointer;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .listGroup .listGroupItem:hover {
+    background-color: #f3f6f8;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .listGroup .listGroupItem .avatar {
+    width: 1.75rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    font-size: .80rem;
+    font-weight: 600;
+    background-color: #f3f6f8;
+    border: 1px solid #dedede;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .listGroup .listGroupItem p {
+    font-size: 14px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .ticketCards .ticketCardBody .listGroup .listGroupItem .listCount {
+    color: #26bf94;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard {
+    border: none;
+    transition: all .4s;
+    border-radius: 1rem;
+    background-color: transparent;
+    height: 100%;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard:hover {
+    -webkit-transform: translateY(calc(-1.5rem / 5));
+    transform: translateY(calc(-1.5rem / 5));
+    -webkit-box-shadow: 0 5px 10px rgba(30, 32, 37, .12);
+    box-shadow: 0 5px 10px rgba(30, 32, 37, .12);
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgRed,
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgYellow,
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgWhite,
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgGreen,
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgBlue,
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgGrey,
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgPinGreen {
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgRed {
+    background: #f0466b;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgYellow {
+    background: #ff8a65;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgWhite {
+    background: #fff;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgGreen {
+    background: #33db9e;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgBlue {
+    background: #4fc3f7;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgGrey {
+    background: #f3f6f8;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .bgPinGreen {
+    background: #e4faf7;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .shadowText {
+    padding: 6px;
+    text-align: center;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .shadowText h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #b9c5d2;
+    line-height: 1.1;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .shadowText h2 span {
+    color: #26bf94;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .shadowText h5 {
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: 400;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .pinGreen {
+    padding: 15px 12px;
+    text-align: center;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .pinGreen h5 {
+    color: #26bf94;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .pinGreen h5 span {
+    font-size: 10px;
+    font-weight: 400;
+    color: #7c7c7c;
+    margin-left: 4px;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .pinGreen h4 {
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: 400;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .pinGreen h4 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #26bf94;
+}
+
+.DashboardWarapperBodyNoBG .dashboardHomeTicketWraper .inputCard .pinGreen .shadowText h2 span {
+    color: #26bf94;
+}
+.table-title{
+    display: flex !important;
+    flex-direction: row!important;
+    justify-content: space-between !important;
+    background-color: #41415c;
+}
