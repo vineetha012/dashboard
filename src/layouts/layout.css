@@ -1,0 +1,439 @@
+.demo-logo-vertical {
+  text-align: center;
+  padding: 11px 0;
+  background-color: #fff;
+  border-right: 1px solid #e0e7ff;
+  height: 71px;
+}
+
+.demo-logo-vertical a figure {
+  margin: 0;
+}
+
+.demo-logo-vertical a figure img {
+  max-width: 196px;
+}
+
+.demo-logo-vertical a .logo-collapsed {
+  display: none;
+}
+
+.dropdown-item {
+  line-height: 1.5;
+}
+
+.ant-layout-sider {
+  flex: 0 0 250px !important;
+  max-width: 254px !important;
+  /* background-color:#018de4 !important; */
+    background-color: #0d1282 !important;
+}
+
+.ant-layout-sider.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+}
+
+.ant-layout-sider .ant-menu {
+  background: transparent;
+  margin-top: 14px;
+  overflow-x: hidden;
+  text-align: justify;
+  height: 85vh;
+  min-height: 500px;
+}
+
+.ant-layout-sider .ant-menu .ant-menu-item {
+  height: 50px;
+}
+
+.ant-layout-sider .ant-menu .ant-menu-item svg {
+  display: inline-block;
+  font-size: 18px;
+  line-height: inherit;
+}
+
+.ant-layout-sider .ant-menu .ant-menu-item .ant-menu-title-content {
+  font-size: 0.9375rem;
+}
+
+.ant-layout-sider .ant-menu .ant-menu-item.ant-menu-item-selected {
+  background-color: transparent;
+}
+
+.ant-layout-sider.ant-layout-sider-collapsed .demo-logo-vertical .logo-collapsed {
+  display: block;
+}
+
+.ant-layout-sider.ant-layout-sider-collapsed .demo-logo-vertical .logo-collapsed img {
+  max-width: 48px;
+}
+
+.ant-layout-sider.ant-layout-sider-collapsed .demo-logo-vertical .logo-expanded {
+  display: none;
+}
+
+.ant-layout {
+  /* background: #f3f3f9; */
+}
+
+.ant-layout .ant-layout-header {
+  height: 70px;
+}
+
+.ant-layout .ant-layout-header .ant-btn {
+  height: 70px !important;
+}
+
+.ant-layout .ant-layout-header .ant-space-compact .ant-input-group-addon {
+  border: none;
+  height: 38px;
+  padding-left: 14px;
+  padding-right: 0;
+  background-color: #f3f3f9;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.ant-layout .ant-layout-header .ant-space-compact .ant-input {
+  border: none;
+  height: 38px;
+  background-color: #f3f3f9;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.ant-layout .ant-layout-content {
+  background: none !important;
+  /* padding: 24px 12px !important; */
+  margin: 0 !important;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0d1282;
+  overflow-x: hidden;
+  transition: 0.5s;
+  /* padding-top: 60px; */
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  /* position: absolute; */
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 16px;
+  width: 64px;
+  height: 70px !important;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  border: 0;
+  border-radius: 6px;
+}
+
+.openbtn:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+#main {
+  transition: margin-left 0.5s;
+}
+
+.sidebar .demo-logo-vertical {
+  text-align: center;
+  padding: 11px 0;
+  background-color: #fff;
+  border-right: 1px solid #e0e7ff;
+  max-height: 69.68px;
+}
+
+.sidebar .demo-logo-vertical .logo-expanded {
+  display: block;
+  margin: 0;
+}
+
+.sidebar .demo-logo-vertical .logo-expanded img {
+  max-width: 196px;
+}
+
+.sidebar .demo-logo-vertical .logo-collapsed {
+  display: none;
+}
+
+.sidebar ul {
+  margin-top: 18px;
+  color: #ffffffa6;
+  list-style: none;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.sidebar ul li {
+  display: flex;
+  align-items: center;
+  transition: border-color 0.3s, background 0.3s, padding 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  margin: 4px;
+  padding: 0 16px 0 24px;
+  min-height: 50px;
+  cursor: pointer;
+}
+
+.sidebar ul li.active {
+  color: #fff;
+}
+
+.sidebar ul li:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.sidebar ul li span {
+  line-height: 40px;
+  font-size: 1rem;
+  margin-left: 10px;
+  width: 100%;
+  flex: auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar ul li svg {
+  display: inline-block;
+  font-size: 21px;
+  line-height: inherit;
+}
+
+.sidebar.collapsed .logo-collapsed {
+  display: block;
+  height: 71px;
+}
+
+.sidebar.collapsed .logo-collapsed img {
+  max-width: 48px;
+}
+
+.sidebar.collapsed .logo-expanded {
+  display: none;
+  height: 71px;
+}
+
+#main .layout-header {
+  height: 71px;
+  position: sticky;
+  display: flex;
+  border-bottom: 1px solid #f0f0f6;
+  background-color: #fff;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#main .layout-header .header-item .bg-body-tertiary {
+  margin-right: 28px;
+  background-color: #f3f3f9;
+  height: 100%;
+  min-width: 210px;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-toggle {
+  padding: 0 20px;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-toggle .user-dropdown {
+  align-items: center;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-toggle .user-dropdown img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-toggle .user-dropdown .user-name {
+  margin-left: 12px;
+  line-height: 1.5;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-toggle .user-dropdown .user-name p {
+  color: #495057;
+  font-family: 600;
+  font-size: 14px;
+  margin: 0;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-toggle .user-dropdown .user-name label {
+  font-size: 14px;
+  color: #405189;
+  margin: 0;
+  cursor: pointer;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-toggle::after {
+  display: none;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown {
+  display: none;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-toggle .notification {
+  margin-right: 1rem;
+  position: relative;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-toggle .notification a {
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+  color: #495057;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-toggle .notification a:hover {
+  color: #3577f1;
+  background-color: #3577f11a;
+  border-color: #3577f11a;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-toggle .notification a svg {
+  font-size: 22px;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-toggle .notification .badge {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  background-color: #f06548 !important;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-menu.show {
+  display: block;
+  max-width: 320px;
+  width: 320px;
+  inset: 12px auto auto -277px !important;
+  transform: translate3d(0px, 45.6px, 0px) !important;
+  padding: 0;
+  padding-bottom: 10px;
+  border-radius: 0.25rem;
+  z-index: 200;
+  max-height: 300px;
+  border: 2px solid #f3f3f9;
+  overflow-y: scroll;
+  box-shadow: 0 5px 10px rgba(30, 32, 37, 0.12);
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-menu .dropdown-head {
+  background-color: #405189;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-menu .dropdown-head h6 {
+  margin: 0;
+  color: #fff;
+}
+
+#main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-menu .dropdown-item {
+  padding-top: 18px;
+}
+
+#main .content {
+  background-color: #f3f3f9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding: 23px 12px 120px 12px;
+  height: 100vh;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 992px) {
+  #main .layout-header .header-item .bg-body-tertiary {
+    height: auto;
+  }
+
+  #main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-toggle .user-dropdown .user-name p {
+    /* height: 0 !important; */
+  }
+
+  #main .layout-header .header-item .bg-body-tertiary .nav-item .dropdown-menu {
+    position: absolute;
+  }
+
+  #main .layout-header .header-item .bg-body-tertiary .dropdown-menu[data-bs-popper] {
+    left: -16px;
+  }
+
+  #main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-menu.show {
+    display: block;
+    max-width: 320px;
+    width: 250px;
+    inset: 12px auto auto -230px !important;
+    transform: translate3d(0px, 45.6px, 0px) !important;
+    padding: 0;
+    padding-bottom: 10px;
+    border-radius: 0.25rem;
+    z-index: 200;
+    max-height: 300px;
+    border: 2px solid #f3f3f9;
+    overflow-y: scroll;
+    box-shadow: 0 5px 10px rgba(30, 32, 37, 0.12);
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  #main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-menu .dropdown-head {
+    background-color: #405189;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+  #main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-menu .dropdown-head h6 {
+    margin: 0;
+    color: #fff;
+  }
+
+  #main .layout-header .header-item .bg-body-tertiary .notification-dropdown .dropdown-menu .dropdown-item {
+    padding-top: 18px;
+  }
+
+  #main .content {
+    background-color: #f3f3f9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding: 23px 12px 120px 12px;
+    height: 100vh;
+    overflow: scroll;
+  }
+}
