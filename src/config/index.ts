@@ -5,7 +5,7 @@ export const config = () => {
     BASE_URL = process.env.REACT_APP_API_URL;
 
     return {
-        BASE_URL,
+        BASE_URL, 
         emailValidator,
     };
 };
